@@ -1,0 +1,10 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Local task artifacts and generated reports
+.codex-build/
+output/
+.DS_Store

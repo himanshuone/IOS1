@@ -1,0 +1,93 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+/* Begin PBXBuildFile section */
+  A001 = {isa = PBXBuildFile; fileRef = B001; };
+  A002 = {isa = PBXBuildFile; fileRef = B002; };
+  A003 = {isa = PBXBuildFile; fileRef = B003; };
+  A004 = {isa = PBXBuildFile; fileRef = B004; };
+  A005 = {isa = PBXBuildFile; fileRef = B005; };
+  A006 = {isa = PBXBuildFile; fileRef = B006; };
+  A007 = {isa = PBXBuildFile; fileRef = B007; };
+  A008 = {isa = PBXBuildFile; fileRef = B008; };
+  A009 = {isa = PBXBuildFile; fileRef = B009; };
+  A010 = {isa = PBXBuildFile; fileRef = B010; };
+  A011 = {isa = PBXBuildFile; fileRef = B011; };
+  A012 = {isa = PBXBuildFile; fileRef = B012; };
+  A013 = {isa = PBXBuildFile; fileRef = B013; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+  B001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/AppDelegate.swift; sourceTree = "<group>"; };
+  B002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/DashboardViewController.swift; sourceTree = "<group>"; };
+  B003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LessonsViewController.swift; sourceTree = "<group>"; };
+  B004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LessonViewController.swift; sourceTree = "<group>"; };
+  B005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/AchievementsViewController.swift; sourceTree = "<group>"; };
+  B006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Style.swift; sourceTree = "<group>"; };
+  B007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Lesson.swift; sourceTree = "<group>"; };
+  B008 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/LessonService.swift; sourceTree = "<group>"; };
+  B009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ProgressStore.swift; sourceTree = "<group>"; };
+  B010 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/CourseRepository.swift; sourceTree = "<group>"; };
+  B011 = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+  B012 = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/Lessons.json; sourceTree = "<group>"; };
+  B013 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  B100 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Python30Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+  C001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+  D001 = {isa = PBXGroup; children = (D002, D003, ); sourceTree = "<group>"; };
+  D002 = {isa = PBXGroup; path = Python30Days; sourceTree = "<group>"; children = (
+   B001,
+   B002,
+   B003,
+   B004,
+   B005,
+   B006,
+   B007,
+   B008,
+   B009,
+   B010,
+   B011,
+   B012,
+   B013,
+  ); };
+  D003 = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (B100, ); };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+  E001 = {isa = PBXNativeTarget; buildConfigurationList = F002; buildPhases = (E002, C001, E003, ); buildRules = (); dependencies = (); name = Python30Days; productName = Python30Days; productReference = B100; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXBuildPhase section */
+  E002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+   A001,
+   A002,
+   A003,
+   A004,
+   A005,
+   A006,
+   A007,
+   A008,
+   A009,
+   A010,
+  ); runOnlyForDeploymentPostprocessing = 0; };
+  E003 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A011, A012, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXBuildPhase section */
+/* Begin PBXProject section */
+  E004 = {isa = PBXProject; attributes = {LastUpgradeCheck = 2630; TargetAttributes = {E001 = {CreatedOnToolsVersion = 26.3; }; }; }; buildConfigurationList = F001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = D001; productRefGroup = D003; projectDirPath = ""; projectRoot = ""; targets = (E001, ); };
+/* End PBXProject section */
+/* Begin XCConfigurationList section */
+ F001 = {isa = XCConfigurationList; buildConfigurations = (F003, F004, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ F002 = {isa = XCConfigurationList; buildConfigurations = (F005, F006, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+/* Begin XCBuildConfiguration section */
+ F003 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Debug; };
+ F004 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Release; };
+ F005 = {isa = XCBuildConfiguration; buildSettings = {SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Python30Days/Info.plist; PRODUCT_BUNDLE_IDENTIFIER = com.example.Python30Days; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Debug; };
+ F006 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Python30Days/Info.plist; PRODUCT_BUNDLE_IDENTIFIER = com.example.Python30Days; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Release; };
+/* End XCBuildConfiguration section */
+ };
+ rootObject = E004;
+}
